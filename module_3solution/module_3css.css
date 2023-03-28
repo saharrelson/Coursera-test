@@ -1,0 +1,51 @@
+* {
+
+	box-sizing: border-box;
+}
+body {
+	background-color: thistle;
+}
+.display-1{
+	margin: 5%;
+    font-weight: 700;
+}
+.display-3 {
+    text-transform: uppercase;
+    padding-top: 2px;
+    color: purple;
+}
+.nav-item {
+	color: palevioletred;
+	background-color: purple;
+	border-bottom: solid black 2px;
+} 
+.nav-item:hover {
+	color: lightcoral;
+	font-weight: bold;
+}
+.nav-link {
+	display: inline;
+	margin-left: 8px;
+}
+.col-lg-4, .col-md-6, .col-sm-6, .col-xs-12 {
+		margin-bottom: 1%;		
+}
+.row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container {
+	overflow: hidden;
+	max-width: 100%;
+}
+.navbar-toggler:hover {
+	background-color: purple;
+	color: palevioletred;
+
+}
+.container {
+	background-color: papayawhip;
+}
+
+
